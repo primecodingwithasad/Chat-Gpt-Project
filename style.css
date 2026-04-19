@@ -1,0 +1,224 @@
+.navbar{
+    color:white;
+    background-color: black;
+    gap:27px;
+    display:flex;
+    height:40px;
+    border-radius:20px;
+}
+.logo{
+    padding-top:6px;
+    padding-left:10px;
+    font-size:25px;
+    color:rgb(0, 174, 255)
+}
+.file{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid black;
+    background-color:black;
+}
+.file:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(65, 65, 65);
+    background-color:rgb(65,65,65);
+    border-radius:10px;
+}
+.edit{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid black;
+    background-color:black;
+}
+.edit:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(65, 65, 65);
+    background-color:rgb(65,65,65);
+    border-radius:10px;
+}
+.selection{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid black;
+    background-color:black;
+}
+.selection:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(65, 65, 65);
+    background-color:rgb(65,65,65);
+    border-radius:10px;
+}
+.moreever{
+    margin-left:-7px;
+    font-size:30px;
+    width:30px;
+    padding-left:7px;
+    border:2px solid black;
+    background-color:black;
+}
+.moreever:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(65, 65, 65);
+    background-color:rgb(65,65,65);
+    border-radius:10px;
+}
+.aimodel{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid rgb(65 , 65 , 65);
+    background-color:rgb(65,65,65);
+    border-radius:20px;
+    width:500px;
+    text-align:center;
+}
+.aimodel:hover{
+    transition-duration:0.2s;
+    border:2px solid rgb(107, 107, 107);
+}
+.manage{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid black;
+    background-color:black;
+}
+.manage:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(65, 65, 65);
+    background-color:rgb(65,65,65);
+    border-radius:10px;
+}
+.signup{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    width:80px;
+    text-align:center;
+}
+.signup:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(8, 0, 255);
+    background-color:rgb(8, 0, 255);
+    border-radius:20px;
+}
+.login{
+    font-size:20px;
+    padding-top:7px;
+    border:2px solid rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    width:80px;
+    text-align:center;
+}
+.login:hover{
+    transition-duration:0.2s;
+    border:2px solid  rgb(8, 0, 255);
+    background-color:rgb(8, 0, 255);
+    border-radius:20px;
+}
+.displaylogo{
+    height:110px;
+    width:200px;
+    padding-top:10px;
+    padding-left:285px;
+}
+.question{
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+}
+.searchbox{
+    width:800px;
+    height:40px;
+    border-radius:20px;
+    margin-left:240px;
+    font-size: 15px;
+    text-align: start;
+    padding-left:40px;
+    margin-top:10px;
+}
+#addicon{
+    position:absolute;
+   left:260px;
+   top:35.2%;
+   border:2px solid rgb(255,255,255);
+   padding:5px;
+   border-radius:20px;
+}
+#addicon:hover{
+    border:2px solid black;
+}
+#microphone{
+    position:absolute;
+   font-size:20px ;
+   border:2px solid rgb(255, 255, 255);
+   border-radius:20px;
+   padding:5px;
+   right:320px;
+   top:35%;
+
+}
+#microphone:hover{
+   border:2px solid black;
+}
+#upload{
+    position:absolute;
+    font-size:20px;
+   border:2px solid rgb(186, 186, 186);
+   border-radius:20px;
+   padding:5px;
+   right:280px;
+   top:35%;
+}
+#upload:hover{
+     border:2px solid black;
+}
+#friend{
+    position:absolute;
+    right:25px;
+    top:65px;
+    font-size:20px;
+    padding:10px;
+    border:2px solid rgb(186,186,186);
+    border-radius:30px;
+}
+#friend:hover{
+    border:2px solid black;
+}
+#comments{
+    position:absolute;
+    right:85px;
+    top: 65px;
+    font-size: 20px;
+    padding:10px;
+    border:2px solid rgb(186,186,186);
+    border-radius:30px;
+    color:rgb(0, 174, 255);
+}
+#comments:hover{
+    border:2px solid black;
+}
+#crown{
+     position:absolute;
+    left:25px;
+    top: 65px;
+    font-size: 20px;
+    padding:10px;
+    border:2px solid rgb(186,186,186);
+    border-radius:30px;
+    color:rgb(255, 174, 0)
+}
+#crown:hover{
+    border:2px solid black;
+}
+.aboutpolicy{
+    position:absolute;
+    text-align:center;
+    top:490px;
+    left:570px;
+}
+.footerbottom{
+    position:absolute;
+    text-align:center;
+    top:570px;
+    left: 505px;
+}
