@@ -115,6 +115,10 @@
     background-color:rgb(8, 0, 255);
     border-radius:20px;
 }
+.login a{
+    color:white;
+    text-decoration: none;
+}
 .displaylogo{
     height:110px;
     width:200px;
@@ -221,4 +225,107 @@
     text-align:center;
     top:570px;
     left: 505px;
+}
+/* login page */
+
+
+
+.login_page{
+    background-image: url(space.jpg);
+    background-size:cover;
+    color:white;
+}
+.img1{
+    position:absolute;
+    top:20px;
+    left:20px;
+    height:50px;
+    width:50px;
+    border-radius:30px;
+    border:2px solid black;
+}
+.img1:hover{
+    border:2px solid white;
+}
+.top{
+    text-align:center;
+}
+.loginpage{
+    position:absolute;
+    left:35%;
+    width:370px;
+    height:400px;
+    border:2px solid rgb(255, 255, 255);
+    border-radius:20px;
+    top:100px;
+}
+.title{
+    text-align:center;
+    color:rgb(255, 255, 255);;
+}
+.username{
+    font-size:20px;
+}
+.name{
+    font-size:15px;
+    background-color: transparent;
+    height:30px;
+    width:220px;
+    border-radius:30px;
+    justify-content:center;
+    align-items: center;
+    margin-left:60px;
+    padding-left:20px;
+    color:white;
+    
+}
+.name::placeholder{
+    color:white;
+}
+.password{
+    font-size:15px;
+    margin-top:20px;
+    background-color: transparent;
+    height:30px;
+    width:220px;
+    border-radius:30px;
+    justify-content:center;
+    align-items: center;
+    margin-left:60px;
+    padding-left:20px;
+    color:white;
+}
+.password::placeholder{
+    color:white;
+}
+.forgotpassword{
+    padding-top:20px;
+    text-align: center;
+}
+.login1{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    color:black;
+    height:45px;
+    width:190px;
+    border-radius:20px;
+    left:23%;
+    margin-top:15px;
+}
+.login1 h2 a {
+  text-decoration: none; /* remove underline */
+  color: #000000;        /* change color */
+}
+.register{
+    text-align:center;
+    padding-top:70px;
+}
+.register a{
+    color:rgb(253, 255, 109);
+}
+.forgotpassword a{
+    color:rgb(253, 255, 109);
 }
